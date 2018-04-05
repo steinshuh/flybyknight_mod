@@ -13,7 +13,9 @@ public class ModItems {
 	private static boolean _alreadyPopulated = false;
 	// items
 	public static Item firstItem; 
-	
+	public static Item pokejungeAxe; 
+	public static Item awesomebookgirlWand; 
+
 	//lists of blocks and items
 	public static HashSet<Item> items = new HashSet<Item>();
 
@@ -25,6 +27,10 @@ public class ModItems {
 		System.out.println("ModItems.populateItems");
 		firstItem = new FirstItem(); 
 		items.add(firstItem);
+		pokejungeAxe = new PokejungeAxe();
+		items.add(pokejungeAxe);
+		awesomebookgirlWand = new AwesomebookgirlWand();
+		items.add(awesomebookgirlWand);
 		_alreadyPopulated=true;
 	}
 
