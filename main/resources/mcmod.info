@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tut",
+  "name": "Pokejunge, Awesomebookgirl and Steinshuh Mod",
+  "description": "Fly by Knight: First mod. Blocks and Items.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Pokejunge Awesomebookgirl Steinshuh"],
+  "credits": "Forge and Fly by Knight",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
